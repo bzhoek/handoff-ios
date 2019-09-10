@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Classroom Timer.xcodeproj">
+      location = "self:/Users/bas/zilverline/classroom-ios/classroom.timer.ios.xcodeproj">
    </FileRef>
 </Workspace>

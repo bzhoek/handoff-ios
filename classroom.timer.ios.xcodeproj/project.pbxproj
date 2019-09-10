@@ -12,18 +12,7 @@
 		4918142123266B7A00137AAA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4918141F23266B7A00137AAA /* Main.storyboard */; };
 		4918142323266B7B00137AAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4918142223266B7B00137AAA /* Assets.xcassets */; };
 		4918142623266B7B00137AAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4918142423266B7B00137AAA /* LaunchScreen.storyboard */; };
-		4918143123266B7B00137AAA /* Classroom_TimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4918143023266B7B00137AAA /* Classroom_TimerTests.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		4918142D23266B7B00137AAA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 4918141023266B7900137AAA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4918141723266B7A00137AAA;
-			remoteInfo = "Classroom Timer";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		4918141823266B7A00137AAA /* Classroom Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Classroom Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,20 +22,11 @@
 		4918142223266B7B00137AAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4918142523266B7B00137AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4918142723266B7B00137AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4918142C23266B7B00137AAA /* Classroom TimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Classroom TimerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4918143023266B7B00137AAA /* Classroom_TimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classroom_TimerTests.swift; sourceTree = "<group>"; };
-		4918143223266B7B00137AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49DD061123278C7900C9F30C /* Classroom Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Classroom Timer.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4918141523266B7A00137AAA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4918142923266B7B00137AAA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +40,6 @@
 			isa = PBXGroup;
 			children = (
 				4918141A23266B7A00137AAA /* Classroom Timer */,
-				4918142F23266B7B00137AAA /* Classroom TimerTests */,
 				4918141923266B7A00137AAA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +48,6 @@
 			isa = PBXGroup;
 			children = (
 				4918141823266B7A00137AAA /* Classroom Timer.app */,
-				4918142C23266B7B00137AAA /* Classroom TimerTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +55,7 @@
 		4918141A23266B7A00137AAA /* Classroom Timer */ = {
 			isa = PBXGroup;
 			children = (
+				49DD061123278C7900C9F30C /* Classroom Timer.entitlements */,
 				4918141B23266B7A00137AAA /* AppDelegate.swift */,
 				4918141D23266B7A00137AAA /* ViewController.swift */,
 				4918141F23266B7A00137AAA /* Main.storyboard */,
@@ -85,15 +64,6 @@
 				4918142723266B7B00137AAA /* Info.plist */,
 			);
 			path = "Classroom Timer";
-			sourceTree = "<group>";
-		};
-		4918142F23266B7B00137AAA /* Classroom TimerTests */ = {
-			isa = PBXGroup;
-			children = (
-				4918143023266B7B00137AAA /* Classroom_TimerTests.swift */,
-				4918143223266B7B00137AAA /* Info.plist */,
-			);
-			path = "Classroom TimerTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,24 +86,6 @@
 			productReference = 4918141823266B7A00137AAA /* Classroom Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4918142B23266B7B00137AAA /* Classroom TimerTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4918143823266B7B00137AAA /* Build configuration list for PBXNativeTarget "Classroom TimerTests" */;
-			buildPhases = (
-				4918142823266B7B00137AAA /* Sources */,
-				4918142923266B7B00137AAA /* Frameworks */,
-				4918142A23266B7B00137AAA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				4918142E23266B7B00137AAA /* PBXTargetDependency */,
-			);
-			name = "Classroom TimerTests";
-			productName = "Classroom TimerTests";
-			productReference = 4918142C23266B7B00137AAA /* Classroom TimerTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -146,14 +98,15 @@
 				TargetAttributes = {
 					4918141723266B7A00137AAA = {
 						CreatedOnToolsVersion = 10.3;
-					};
-					4918142B23266B7B00137AAA = {
-						CreatedOnToolsVersion = 10.3;
-						TestTargetID = 4918141723266B7A00137AAA;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
-			buildConfigurationList = 4918141323266B7900137AAA /* Build configuration list for PBXProject "Classroom Timer" */;
+			buildConfigurationList = 4918141323266B7900137AAA /* Build configuration list for PBXProject "classroom.timer.ios" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -167,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				4918141723266B7A00137AAA /* Classroom Timer */,
-				4918142B23266B7B00137AAA /* Classroom TimerTests */,
 			);
 		};
 /* End PBXProject section */
@@ -183,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4918142A23266B7B00137AAA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -202,23 +147,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4918142823266B7B00137AAA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4918143123266B7B00137AAA /* Classroom_TimerTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		4918142E23266B7B00137AAA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 4918141723266B7A00137AAA /* Classroom Timer */;
-			targetProxy = 4918142D23266B7B00137AAA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		4918141F23266B7A00137AAA /* Main.storyboard */ = {
@@ -360,15 +289,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Classroom Timer/Classroom Timer.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6MWBEMLK39;
 				INFOPLIST_FILE = "Classroom Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zilverline.ios.Classroom-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zilverline.classroom.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Classroom Timer iOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,66 +309,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = "Classroom Timer/Classroom Timer.entitlements";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 6MWBEMLK39;
 				INFOPLIST_FILE = "Classroom Timer/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zilverline.ios.Classroom-Timer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zilverline.classroom.ios;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "Classroom Timer iOS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		4918143923266B7B00137AAA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6MWBEMLK39;
-				INFOPLIST_FILE = "Classroom TimerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zilverline.ios.Classroom-TimerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classroom Timer.app/Classroom Timer";
-			};
-			name = Debug;
-		};
-		4918143A23266B7B00137AAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6MWBEMLK39;
-				INFOPLIST_FILE = "Classroom TimerTests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.zilverline.ios.Classroom-TimerTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Classroom Timer.app/Classroom Timer";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4918141323266B7900137AAA /* Build configuration list for PBXProject "Classroom Timer" */ = {
+		4918141323266B7900137AAA /* Build configuration list for PBXProject "classroom.timer.ios" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4918143323266B7B00137AAA /* Debug */,
@@ -451,15 +342,6 @@
 			buildConfigurations = (
 				4918143623266B7B00137AAA /* Debug */,
 				4918143723266B7B00137AAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		4918143823266B7B00137AAA /* Build configuration list for PBXNativeTarget "Classroom TimerTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4918143923266B7B00137AAA /* Debug */,
-				4918143A23266B7B00137AAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

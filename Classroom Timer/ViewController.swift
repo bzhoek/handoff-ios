@@ -9,7 +9,7 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
 
-    keyStore = NSUbiquitousKeyValueStore()
+    keyStore = NSUbiquitousKeyValueStore.default
 
     NotificationCenter.default.addObserver(self, selector: #selector(onUbiquitousKeyValueStoreDidChangeExternally(notification:)), name: NSUbiquitousKeyValueStore.didChangeExternallyNotification, object: keyStore)
   }

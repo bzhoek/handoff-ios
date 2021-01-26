@@ -23,6 +23,7 @@
 		4918142523266B7B00137AAA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4918142723266B7B00137AAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49DD061123278C7900C9F30C /* Classroom Timer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Classroom Timer.entitlements"; sourceTree = "<group>"; };
+		49DE7EE12327E181005FF99E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +40,7 @@
 		4918140F23266B7900137AAA = {
 			isa = PBXGroup;
 			children = (
+				49DE7EE12327E181005FF99E /* README.md */,
 				4918141A23266B7A00137AAA /* Classroom Timer */,
 				4918141923266B7A00137AAA /* Products */,
 			);
